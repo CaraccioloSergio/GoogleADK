@@ -15,7 +15,7 @@ def labbi_search_catalog(
     page: int | None = None,
     from_index: int | None = None,
     size: int = 30,
-    auth_token: str = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZWNoQHlvcC1kZXYuY29tIiwiaWF0IjoxNzY0OTU5MTU5LCJleHAiOjE3ODA1MTExNTl9.kk8mIVaRY6RwZDVN8ikN3w3_0bKGimU0MkfyAbLiRsU"
+    auth_token: str = ""
 ) -> dict:
     """
     Consulta el catálogo de Labbi (UAT) usando /api/v2/search.
